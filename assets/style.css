@@ -1,0 +1,20 @@
+.expandable-text-widget .text-content {
+    overflow: hidden;
+    position: relative;
+}
+
+.expandable-text-widget .text-fade {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.expandable-text-widget .expand-btn {
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
